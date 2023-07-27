@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Container, Row, Col, Button, Form, InputGroup } from 'react-bootstrap';
+import iconlist from './images/icon-list.svg';
+import mobiledesign from './images/illustration-sign-up-mobile.svg';
+import { Image } from 'react-bootstrap';
+import { Home} from './component/home';
+import {  Success} from './component/success';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+           <div className="App">
+              
+           <Routes>
+                 <Route  path='/' element={< Home />}></Route>
+                <Route  path='/message' element={< Success />}></Route>
+          </Routes>
+          </div>
+       </Router>
   );
 }
 

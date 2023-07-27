@@ -1,0 +1,69 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  ul{
+    list-style-image: url(./images/icon-list.svg);
+  }
+  
+  .subscribe-btn{
+    justify-self: center;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  .text-start{
+    justify-self: left;
+    width: 100%;
+  }
+  .App-link {
+    color: #61dafb;
+  }
+ 
+
+  .sucess-img{
+    width: 40px;
+    margin-top: 40%;
+  }
+  .containersuc{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:baseline;
+  }
+  .btn-dark{
+    width: 100%;
+    margin-top: 50%;
+  }
+  .thanks{
+    margin-top: 10%;
+  }
+  .list{
+    padding: 3%;
+  }

@@ -13,6 +13,13 @@
   }
 }
 
+ul{
+  list-style-image: url(./component/images/icon-list.svg);
+}
+
+.subscribe-btn{
+  justify-self: center;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,16 +30,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.cols{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.text-start{
+  justify-self: left;
+  width: 100%;
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
