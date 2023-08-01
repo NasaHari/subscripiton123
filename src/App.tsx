@@ -8,7 +8,7 @@ import { Home} from './component/home';
 import {  Success} from './component/success';
 
 import {
-  BrowserRouter as Router,
+ HashRouter as Router,
   Routes,
   Route,
   Link
